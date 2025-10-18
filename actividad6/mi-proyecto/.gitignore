@@ -1,0 +1,77 @@
+# -----------------------------------------------------------------------------
+# DEPENDENCIAS Y PAQUETES (NODE.JS)
+# -----------------------------------------------------------------------------
+
+# Dependencias instaladas. ¡ESENCIAL IGNORAR!
+/node_modules
+
+# Archivos y caché de gestores de paquetes (npm, yarn, pnpm)
+.npm
+*.tgz
+
+# Cache y archivos de Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.yarn-integrity
+/.pnp
+.pnp.*
+
+# Cache de pnpm
+/pnpm-store
+
+# -----------------------------------------------------------------------------
+# ARCHIVOS GENERADOS POR NEXT.JS Y BUILD
+# -----------------------------------------------------------------------------
+
+# Directorios de Build y Cache de Next.js. ¡ESENCIAL IGNORAR!
+/.next/
+/out/
+/build
+
+# -----------------------------------------------------------------------------
+# ARCHIVOS DE TIPADO Y COMPILACIÓN (TYPESCRIPT)
+# -----------------------------------------------------------------------------
+
+# Archivos de caché de TypeScript
+*.tsbuildinfo
+
+# Archivo de entorno generado por Next.js y TypeScript
+next-env.d.ts
+
+# -----------------------------------------------------------------------------
+# ARCHIVOS DE ENTORNO Y SECRETOS
+# -----------------------------------------------------------------------------
+
+# Variables de entorno local (estas deben ser específicas del desarrollador)
+.env
+.env.local
+.env.*.local
+
+# -----------------------------------------------------------------------------
+# LOGS Y DEPURACIÓN
+# -----------------------------------------------------------------------------
+
+# Archivos de log y debug de paquetes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# -----------------------------------------------------------------------------
+# HERRAMIENTAS Y CACHÉS DEL SISTEMA OPERATIVO
+# -----------------------------------------------------------------------------
+
+# Cobertura de pruebas
+/coverage
+
+# Vercel (si se usa para el deploy)
+.vercel
+
+# macOS
+.DS_Store
+
+# Misceláneo
+*.pem
