@@ -34,7 +34,7 @@ export async function POST(request: Request) {
 
     const newFavorite = await db.add({ name }); // Agrega el nuevo favorito a la DB
     
-    return NextResponse.json(newFavorite, { status: 201 }); // 201: Created (devuelve el recurso creado)
+    return NextResponse.json(newFavorite, { status: 201 }); // 201: Created (devuelve el pokemon creado)
 
   } catch (error) {
     return NextResponse.json({ error: "Error al procesar la solicitud" }, { status: 500 }); // 500: Internal Server Error (si falla el JSON.parse() o la DB)

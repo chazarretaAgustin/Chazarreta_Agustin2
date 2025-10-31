@@ -11,7 +11,6 @@ export interface PokemonFavorite {
 
 /**
  * Clase que simula una base de datos usando un archivo json
- * Se usa 'fs/promises' para operaciones asíncronas.
  */
 class Database {
   // Método privado para leer el archivo json

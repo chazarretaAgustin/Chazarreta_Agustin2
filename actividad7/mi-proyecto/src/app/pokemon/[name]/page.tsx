@@ -16,7 +16,7 @@ type PokemonDetailData = {
     }[];
 }
 
-//El Server Component es asíncrono y recibe los parámetros de la ruta dinámica en las props (params)
+// El Server Component es asíncrono y recibe los parámetros de la ruta dinámica en las props (params)
 export default async function PokemonDetailPage({ 
     params 
 }: { 
@@ -63,12 +63,12 @@ export default async function PokemonDetailPage({
         <div style={{ padding: '20px', textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}>
             <h1>Detalle de {pokemon.name.toUpperCase()}</h1>
             
-            <Image 
+            <Image // Renderiza la imagen del pokemon
                 src={pokemon.sprites.front_default} 
                 alt={pokemon.name} 
                 width={200} 
                 height={200} 
-                priority
+                priority // Para que la imagen tenga prioridad y se cargue lo antes posible
                 style={{ 
                     border: '4px solid #cc0000', 
                     borderRadius: '50%', 

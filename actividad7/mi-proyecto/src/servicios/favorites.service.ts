@@ -1,6 +1,6 @@
 import { PokemonFavorite } from "@/app/lib/database";
 
-// Define la estructura de lo que se envia al POST
+// Define la estructura de lo que se envia al post
 type AddFavoritePayload = {
   name: string;
 };

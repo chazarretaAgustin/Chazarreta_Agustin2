@@ -64,7 +64,7 @@ export default function PokemonListItem({
               e.currentTarget.style.transform = 'translateY(0)';
             }}
         >
-            {/* Contenedor flexible para alinear nombre y btn */}
+            {/* Contenedor para alinear nombre y btn */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <strong style={{ fontSize: '1.1em' }}>{name.toUpperCase()}</strong>
                 

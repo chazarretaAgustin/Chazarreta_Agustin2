@@ -65,7 +65,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           borderTop: '1px solid #ccc',
         }}>
           <p style={{ margin: 0 }}>
-            App de Pokémon con TanStack Query y API Routes
+            -- App de Pokemon, actividad 7 --
           </p>
         </footer>
       </body>
