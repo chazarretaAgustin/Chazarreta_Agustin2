@@ -1,0 +1,17 @@
+[
+  {
+    "name": "charizard",
+    "customName": "--- Charizard ---",
+    "description": "God"
+  },
+  {
+    "name": "pikachu",
+    "customName": "--- Pikachu ---",
+    "description": "El mata legendarios"
+  },
+  {
+    "name": "magikarp",
+    "customName": "--- Magikarp ---",
+    "description": "El invencible"
+  }
+]
